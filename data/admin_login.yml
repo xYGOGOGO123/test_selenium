@@ -1,0 +1,8 @@
+-
+  case_id: 1
+  name: 后台登录成功
+  data:
+      username: admin
+      pwd: 123456
+      verification_code: ${get_verification_code()}
+      expected: JPress后台

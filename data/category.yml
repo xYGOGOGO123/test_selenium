@@ -1,0 +1,7 @@
+-
+  case_id: 1
+  name: 添加分类成功
+  data:
+      category_name: 机器学习
+      parent_name: python
+      slug: numpy

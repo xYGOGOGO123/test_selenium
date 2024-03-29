@@ -1,0 +1,50 @@
+-
+  case_id: 1
+  name: 注册成功
+  data:
+      username: test001
+      email: test001@qq.com
+      pwd: 123456
+      confirmPwd: 123456
+      verification_code: ${get_verification_code()}
+      expected: 注册成功，点击确定进行登录。
+-
+  case_id: 2
+  name: 用户名为空
+  data:
+      username: ''
+      email:  test001@qq.com
+      pwd: 123456
+      confirmPwd: 123456
+      verification_code: ${get_verification_code()}
+      expected: 用户名不能为空
+-
+  case_id: 3
+  name: 邮箱为空
+  data:
+      username: test001
+      email: ''
+      pwd: 123456
+      confirmPwd: 123456
+      verification_code: ${get_verification_code()}
+      expected: 邮箱不能为空
+-
+  case_id: 4
+  name: 前后密码不一致
+  data:
+      username: test001
+      email: test001@qq.com
+      pwd: 123456
+      confirmPwd: 1234567
+      verification_code: ${get_verification_code()}
+      expected: 两次输入密码不一致
+-
+  case_id: 5
+  name: 验证码错误
+  data:
+      username: test001
+      email: test001@qq.com
+      pwd: 123456
+      confirmPwd: 123456
+      verification_code: 666
+      expected: 验证码不正确

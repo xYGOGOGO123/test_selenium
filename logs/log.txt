@@ -1,0 +1,269 @@
+[2024-03-27 11:35:27,782] test_user_register.py->test_register line:22 [INFO] ******************************注册测试******************************
+[2024-03-27 11:35:27,783] test_user_register.py->test_register line:23 [INFO] 当前是第1条用例：
+[2024-03-27 11:35:27,783] test_user_register.py->test_register line:24 [INFO] 测试名称：注册成功
+[2024-03-27 11:35:27,783] test_user_register.py->test_register line:25 [INFO] 测试数据：{'username': 'test001', 'email': 'test001@qq.com', 'pwd': 123456, 'confirmPwd': 123456, 'verification_code': 'tvj3', 'expected': '注册成功，点击确定进行登录。'}
+[2024-03-27 11:35:27,783] test_user_register.py->test_register line:26 [INFO] 预期结果：注册成功，点击确定进行登录。
+[2024-03-27 11:35:29,378] test_user_register.py->test_register line:36 [INFO] 实际结果：注册成功，点击确定进行登录。
+[2024-03-27 11:35:30,134] test_user_register.py->test_register line:22 [INFO] ******************************注册测试******************************
+[2024-03-27 11:35:30,134] test_user_register.py->test_register line:23 [INFO] 当前是第2条用例：
+[2024-03-27 11:35:30,134] test_user_register.py->test_register line:24 [INFO] 测试名称：用户名为空
+[2024-03-27 11:35:30,134] test_user_register.py->test_register line:25 [INFO] 测试数据：{'username': '', 'email': 'test001@qq.com', 'pwd': 123456, 'confirmPwd': 123456, 'verification_code': '5gu5', 'expected': '用户名不能为空'}
+[2024-03-27 11:35:30,134] test_user_register.py->test_register line:26 [INFO] 预期结果：用户名不能为空
+[2024-03-27 11:35:30,939] test_user_register.py->test_register line:36 [INFO] 实际结果：用户名不能为空
+[2024-03-27 11:35:31,611] test_user_register.py->test_register line:22 [INFO] ******************************注册测试******************************
+[2024-03-27 11:35:31,611] test_user_register.py->test_register line:23 [INFO] 当前是第3条用例：
+[2024-03-27 11:35:31,611] test_user_register.py->test_register line:24 [INFO] 测试名称：邮箱为空
+[2024-03-27 11:35:31,611] test_user_register.py->test_register line:25 [INFO] 测试数据：{'username': 'test001', 'email': '', 'pwd': 123456, 'confirmPwd': 123456, 'verification_code': 'p8m6', 'expected': '邮箱不能为空'}
+[2024-03-27 11:35:31,611] test_user_register.py->test_register line:26 [INFO] 预期结果：邮箱不能为空
+[2024-03-27 11:35:32,404] test_user_register.py->test_register line:36 [INFO] 实际结果：邮箱不能为空
+[2024-03-27 11:35:33,003] test_user_register.py->test_register line:22 [INFO] ******************************注册测试******************************
+[2024-03-27 11:35:33,003] test_user_register.py->test_register line:23 [INFO] 当前是第4条用例：
+[2024-03-27 11:35:33,003] test_user_register.py->test_register line:24 [INFO] 测试名称：前后密码不一致
+[2024-03-27 11:35:33,003] test_user_register.py->test_register line:25 [INFO] 测试数据：{'username': 'test001', 'email': 'test001@qq.com', 'pwd': 123456, 'confirmPwd': 1234567, 'verification_code': '7heq', 'expected': '两次输入密码不一致'}
+[2024-03-27 11:35:33,003] test_user_register.py->test_register line:26 [INFO] 预期结果：两次输入密码不一致
+[2024-03-27 11:35:33,827] test_user_register.py->test_register line:36 [INFO] 实际结果：两次输入密码不一致
+[2024-03-27 11:35:33,925] test_user_register.py->test_register line:22 [INFO] ******************************注册测试******************************
+[2024-03-27 11:35:33,925] test_user_register.py->test_register line:23 [INFO] 当前是第5条用例：
+[2024-03-27 11:35:33,925] test_user_register.py->test_register line:24 [INFO] 测试名称：验证码错误
+[2024-03-27 11:35:33,925] test_user_register.py->test_register line:25 [INFO] 测试数据：{'username': 'test002', 'email': 'test002@qq.com', 'pwd': 123456, 'confirmPwd': 123456, 'verification_code': 666, 'expected': '验证码不正确'}
+[2024-03-27 11:35:33,925] test_user_register.py->test_register line:26 [INFO] 预期结果：验证码不正确
+[2024-03-27 11:35:34,774] test_user_register.py->test_register line:36 [INFO] 实际结果：验证码不正确
+[2024-03-27 15:45:14,264] test_user_register.py->test_register line:22 [INFO] ******************************注册测试******************************
+[2024-03-27 15:45:14,295] test_user_register.py->test_register line:23 [INFO] 当前是第1条用例：
+[2024-03-27 15:45:14,295] test_user_register.py->test_register line:24 [INFO] 测试名称：注册成功
+[2024-03-27 15:45:14,295] test_user_register.py->test_register line:25 [INFO] 测试数据：{'username': 'test001', 'email': 'test001@qq.com', 'pwd': 123456, 'confirmPwd': 123456, 'verification_code': 'vvsj', 'expected': '注册成功，点击确定进行登录。'}
+[2024-03-27 15:45:14,295] test_user_register.py->test_register line:26 [INFO] 预期结果：注册成功，点击确定进行登录。
+[2024-03-27 15:45:15,859] test_user_register.py->test_register line:36 [INFO] 实际结果：注册成功，点击确定进行登录。
+[2024-03-27 15:45:16,723] test_user_register.py->test_register line:22 [INFO] ******************************注册测试******************************
+[2024-03-27 15:45:16,723] test_user_register.py->test_register line:23 [INFO] 当前是第2条用例：
+[2024-03-27 15:45:16,723] test_user_register.py->test_register line:24 [INFO] 测试名称：用户名为空
+[2024-03-27 15:45:16,723] test_user_register.py->test_register line:25 [INFO] 测试数据：{'username': '', 'email': 'test001@qq.com', 'pwd': 123456, 'confirmPwd': 123456, 'verification_code': 's7s3', 'expected': '用户名不能为空'}
+[2024-03-27 15:45:16,723] test_user_register.py->test_register line:26 [INFO] 预期结果：用户名不能为空
+[2024-03-27 15:45:17,432] test_user_register.py->test_register line:36 [INFO] 实际结果：用户名不能为空
+[2024-03-27 15:45:18,060] test_user_register.py->test_register line:22 [INFO] ******************************注册测试******************************
+[2024-03-27 15:45:18,061] test_user_register.py->test_register line:23 [INFO] 当前是第3条用例：
+[2024-03-27 15:45:18,061] test_user_register.py->test_register line:24 [INFO] 测试名称：邮箱为空
+[2024-03-27 15:45:18,061] test_user_register.py->test_register line:25 [INFO] 测试数据：{'username': 'test001', 'email': '', 'pwd': 123456, 'confirmPwd': 123456, 'verification_code': 'K34r', 'expected': '邮箱不能为空'}
+[2024-03-27 15:45:18,061] test_user_register.py->test_register line:26 [INFO] 预期结果：邮箱不能为空
+[2024-03-27 15:45:18,820] test_user_register.py->test_register line:36 [INFO] 实际结果：邮箱不能为空
+[2024-03-27 15:45:19,540] test_user_register.py->test_register line:22 [INFO] ******************************注册测试******************************
+[2024-03-27 15:45:19,540] test_user_register.py->test_register line:23 [INFO] 当前是第4条用例：
+[2024-03-27 15:45:19,540] test_user_register.py->test_register line:24 [INFO] 测试名称：前后密码不一致
+[2024-03-27 15:45:19,540] test_user_register.py->test_register line:25 [INFO] 测试数据：{'username': 'test001', 'email': 'test001@qq.com', 'pwd': 123456, 'confirmPwd': 1234567, 'verification_code': 'qdrx', 'expected': '两次输入密码不一致'}
+[2024-03-27 15:45:19,540] test_user_register.py->test_register line:26 [INFO] 预期结果：两次输入密码不一致
+[2024-03-27 15:45:20,303] test_user_register.py->test_register line:36 [INFO] 实际结果：两次输入密码不一致
+[2024-03-27 15:45:20,404] test_user_register.py->test_register line:22 [INFO] ******************************注册测试******************************
+[2024-03-27 15:45:20,404] test_user_register.py->test_register line:23 [INFO] 当前是第5条用例：
+[2024-03-27 15:45:20,404] test_user_register.py->test_register line:24 [INFO] 测试名称：验证码错误
+[2024-03-27 15:45:20,404] test_user_register.py->test_register line:25 [INFO] 测试数据：{'username': 'test001', 'email': 'test001@qq.com', 'pwd': 123456, 'confirmPwd': 123456, 'verification_code': 666, 'expected': '验证码不正确'}
+[2024-03-27 15:45:20,405] test_user_register.py->test_register line:26 [INFO] 预期结果：验证码不正确
+[2024-03-27 15:45:21,156] test_user_register.py->test_register line:36 [INFO] 实际结果：验证码不正确
+[2024-03-27 15:45:35,436] test_user_login.py->test_user_login line:20 [INFO] ******************************登录测试******************************
+[2024-03-27 15:45:35,436] test_user_login.py->test_user_login line:21 [INFO] 当前是第6条用例：
+[2024-03-27 15:45:35,437] test_user_login.py->test_user_login line:22 [INFO] 测试名称：登录成功
+[2024-03-27 15:45:35,437] test_user_login.py->test_user_login line:23 [INFO] 测试数据：{'username': 'test001', 'pwd': 123456, 'expected': '用户中心'}
+[2024-03-27 15:45:35,437] test_user_login.py->test_user_login line:24 [INFO] 预期结果：用户中心
+[2024-03-27 15:45:36,403] test_user_login.py->test_user_login line:31 [INFO] 实际结果：用户中心
+[2024-03-27 15:45:36,521] test_user_login.py->test_user_login line:20 [INFO] ******************************登录测试******************************
+[2024-03-27 15:45:36,521] test_user_login.py->test_user_login line:21 [INFO] 当前是第7条用例：
+[2024-03-27 15:45:36,521] test_user_login.py->test_user_login line:22 [INFO] 测试名称：账号为空
+[2024-03-27 15:45:36,522] test_user_login.py->test_user_login line:23 [INFO] 测试数据：{'username': '', 'pwd': 123456, 'expected': '账号不能为空'}
+[2024-03-27 15:45:36,522] test_user_login.py->test_user_login line:24 [INFO] 预期结果：账号不能为空
+[2024-03-27 15:45:36,908] test_user_login.py->test_user_login line:39 [INFO] 实际结果：账号不能为空
+[2024-03-27 15:45:36,984] test_user_login.py->test_user_login line:20 [INFO] ******************************登录测试******************************
+[2024-03-27 15:45:36,984] test_user_login.py->test_user_login line:21 [INFO] 当前是第8条用例：
+[2024-03-27 15:45:36,985] test_user_login.py->test_user_login line:22 [INFO] 测试名称：密码为空
+[2024-03-27 15:45:36,985] test_user_login.py->test_user_login line:23 [INFO] 测试数据：{'username': 'test001', 'pwd': '', 'expected': '密码不能为空'}
+[2024-03-27 15:45:36,985] test_user_login.py->test_user_login line:24 [INFO] 预期结果：密码不能为空
+[2024-03-27 15:45:37,379] test_user_login.py->test_user_login line:39 [INFO] 实际结果：密码不能为空
+[2024-03-27 15:45:37,452] test_user_login.py->test_user_login line:20 [INFO] ******************************登录测试******************************
+[2024-03-27 15:45:37,452] test_user_login.py->test_user_login line:21 [INFO] 当前是第9条用例：
+[2024-03-27 15:45:37,452] test_user_login.py->test_user_login line:22 [INFO] 测试名称：账号错误
+[2024-03-27 15:45:37,452] test_user_login.py->test_user_login line:23 [INFO] 测试数据：{'username': 'test01', 'pwd': 123456, 'expected': '用户名不正确。'}
+[2024-03-27 15:45:37,452] test_user_login.py->test_user_login line:24 [INFO] 预期结果：用户名不正确。
+[2024-03-27 15:45:37,984] test_user_login.py->test_user_login line:39 [INFO] 实际结果：用户名不正确。
+[2024-03-27 15:45:38,054] test_user_login.py->test_user_login line:20 [INFO] ******************************登录测试******************************
+[2024-03-27 15:45:38,054] test_user_login.py->test_user_login line:21 [INFO] 当前是第10条用例：
+[2024-03-27 15:45:38,054] test_user_login.py->test_user_login line:22 [INFO] 测试名称：密码错误
+[2024-03-27 15:45:38,055] test_user_login.py->test_user_login line:23 [INFO] 测试数据：{'username': 'test001', 'pwd': 1234, 'expected': '用户名或密码不正确'}
+[2024-03-27 15:45:38,055] test_user_login.py->test_user_login line:24 [INFO] 预期结果：用户名或密码不正确
+[2024-03-27 15:45:38,463] test_user_login.py->test_user_login line:39 [INFO] 实际结果：用户名或密码不正确
+[2024-03-27 16:24:21,060] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 16:24:21,062] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 16:24:21,062] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 16:24:21,062] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'muep', 'expected': 'JPress后台'}
+[2024-03-27 16:24:21,062] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 16:24:22,328] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-27 17:11:11,296] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 17:11:11,297] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 17:11:11,298] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 17:11:11,298] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'trfg', 'expected': 'JPress后台'}
+[2024-03-27 17:11:11,298] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 17:11:13,589] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-27 17:13:44,444] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 17:13:44,445] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 17:13:44,445] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 17:13:44,446] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'yfsk', 'expected': 'JPress后台'}
+[2024-03-27 17:13:44,446] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 17:13:46,645] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-27 17:26:12,728] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 17:26:12,729] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 17:26:12,729] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 17:26:12,730] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': '74yn', 'expected': 'JPress后台'}
+[2024-03-27 17:26:12,730] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 17:26:17,256] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-27 17:43:10,932] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 17:43:10,933] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 17:43:10,933] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 17:43:10,933] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'Vh99', 'expected': 'JPress后台'}
+[2024-03-27 17:43:10,933] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 17:43:13,128] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-27 19:33:29,985] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 19:33:29,986] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 19:33:29,986] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 19:33:29,986] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'mkcr', 'expected': 'JPress后台'}
+[2024-03-27 19:33:29,987] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 19:33:32,193] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-27 19:50:22,699] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 19:50:22,700] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 19:50:22,701] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 19:50:22,701] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'bkhf', 'expected': 'JPress后台'}
+[2024-03-27 19:50:22,701] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 19:50:28,234] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-27 20:02:27,293] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 20:02:27,294] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 20:02:27,295] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 20:02:27,295] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'btv8', 'expected': 'JPress后台'}
+[2024-03-27 20:02:27,295] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 20:02:29,017] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-27 20:04:42,166] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 20:04:42,167] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 20:04:42,167] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 20:04:42,168] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': '4jg', 'expected': 'JPress后台'}
+[2024-03-27 20:04:42,168] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 20:05:12,031] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 20:05:12,032] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 20:05:12,032] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 20:05:12,032] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'ach9', 'expected': 'JPress后台'}
+[2024-03-27 20:05:12,032] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 20:05:14,018] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-27 20:07:39,137] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 20:07:39,137] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 20:07:39,138] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 20:07:39,138] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': '4cuk', 'expected': 'JPress后台'}
+[2024-03-27 20:07:39,138] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 20:07:41,158] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-27 20:07:41,174] test_category.py->test_category line:17 [INFO] ******************************后台登录测试******************************
+[2024-03-27 20:07:41,175] test_category.py->test_category line:18 [INFO] 当前是第1条用例：
+[2024-03-27 20:07:41,175] test_category.py->test_category line:19 [INFO] 测试名称：添加分类成功
+[2024-03-27 20:07:41,175] test_category.py->test_category line:20 [INFO] 测试数据：{'name': '深度学习', 'parent_name': 'python', 'slug': 'pytorch'}
+[2024-03-27 20:33:07,964] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 20:33:07,965] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 20:33:07,965] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 20:33:07,965] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'uvyg', 'expected': 'JPress后台'}
+[2024-03-27 20:33:07,966] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 20:33:10,188] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-27 20:33:10,216] test_category.py->test_category line:17 [INFO] ******************************后台登录测试******************************
+[2024-03-27 20:33:10,216] test_category.py->test_category line:18 [INFO] 当前是第1条用例：
+[2024-03-27 20:33:10,216] test_category.py->test_category line:19 [INFO] 测试名称：添加分类成功
+[2024-03-27 20:33:10,216] test_category.py->test_category line:20 [INFO] 测试数据：{'category_name': '深度学习', 'parent_name': 'python', 'slug': 'pytorch'}
+[2024-03-27 20:34:38,103] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 20:34:38,104] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 20:34:38,104] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 20:34:38,104] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'r9ha', 'expected': 'JPress后台'}
+[2024-03-27 20:34:38,104] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 20:34:40,667] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-27 20:34:40,685] test_category.py->test_category line:17 [INFO] ******************************后台登录测试******************************
+[2024-03-27 20:34:40,686] test_category.py->test_category line:18 [INFO] 当前是第1条用例：
+[2024-03-27 20:34:40,686] test_category.py->test_category line:19 [INFO] 测试名称：添加分类成功
+[2024-03-27 20:34:40,686] test_category.py->test_category line:20 [INFO] 测试数据：{'category_name': '深度学习', 'parent_name': 'python', 'slug': 'pytorch'}
+[2024-03-27 20:36:05,985] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 20:36:05,986] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 20:36:05,986] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 20:36:05,986] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'yxrt', 'expected': 'JPress后台'}
+[2024-03-27 20:36:05,987] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 20:36:08,141] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-27 20:36:08,154] test_category.py->test_category line:17 [INFO] ******************************后台登录测试******************************
+[2024-03-27 20:36:08,154] test_category.py->test_category line:18 [INFO] 当前是第1条用例：
+[2024-03-27 20:36:08,154] test_category.py->test_category line:19 [INFO] 测试名称：添加分类成功
+[2024-03-27 20:36:08,154] test_category.py->test_category line:20 [INFO] 测试数据：{'category_name': '深度学习', 'parent_name': 'python', 'slug': 'pytorch'}
+[2024-03-27 20:38:30,574] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 20:38:30,575] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 20:38:30,575] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 20:38:30,575] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'sk6c', 'expected': 'JPress后台'}
+[2024-03-27 20:38:30,575] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 20:38:32,811] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-27 20:38:32,874] test_category.py->test_category line:17 [INFO] ******************************后台登录测试******************************
+[2024-03-27 20:38:32,875] test_category.py->test_category line:18 [INFO] 当前是第1条用例：
+[2024-03-27 20:38:32,875] test_category.py->test_category line:19 [INFO] 测试名称：添加分类成功
+[2024-03-27 20:38:32,875] test_category.py->test_category line:20 [INFO] 测试数据：{'category_name': '机器学习', 'parent_name': 'python', 'slug': 'numpy'}
+[2024-03-27 20:43:54,713] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 20:43:54,714] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 20:43:54,714] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 20:43:54,714] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'kur4', 'expected': 'JPress后台'}
+[2024-03-27 20:43:54,715] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 20:43:57,092] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-27 20:45:13,007] test_category.py->test_category line:17 [INFO] ******************************后台登录测试******************************
+[2024-03-27 20:45:13,007] test_category.py->test_category line:18 [INFO] 当前是第1条用例：
+[2024-03-27 20:45:13,007] test_category.py->test_category line:19 [INFO] 测试名称：添加分类成功
+[2024-03-27 20:45:13,008] test_category.py->test_category line:20 [INFO] 测试数据：{'category_name': '机器学习', 'parent_name': 'python', 'slug': 'numpy'}
+[2024-03-27 20:46:42,273] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-27 20:46:42,273] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-27 20:46:42,273] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-27 20:46:42,273] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'd9xk', 'expected': 'JPress后台'}
+[2024-03-27 20:46:42,273] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-27 20:46:44,190] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-28 11:29:00,982] test_admin_login.py->test_admin_login line:29 [INFO] ******************************后台登录测试******************************
+[2024-03-28 11:29:01,007] test_admin_login.py->test_admin_login line:30 [INFO] 当前是第1条用例：
+[2024-03-28 11:29:01,007] test_admin_login.py->test_admin_login line:31 [INFO] 测试名称：后台登录成功
+[2024-03-28 11:29:01,007] test_admin_login.py->test_admin_login line:32 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'tgkv', 'expected': 'JPress后台'}
+[2024-03-28 11:29:01,007] test_admin_login.py->test_admin_login line:33 [INFO] 预期结果：JPress后台
+[2024-03-28 11:29:08,717] test_admin_login.py->test_admin_login line:42 [INFO] 实际结果：JPress后台
+[2024-03-28 11:33:52,347] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-28 11:33:52,349] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-28 11:33:52,349] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-28 11:33:52,349] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': '7evu', 'expected': 'JPress后台'}
+[2024-03-28 11:33:52,349] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-28 11:33:57,873] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-28 17:21:12,516] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-28 17:21:12,517] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-28 17:21:12,517] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-28 17:21:12,517] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': '5xwg', 'expected': 'JPress后台'}
+[2024-03-28 17:21:12,518] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-28 17:21:14,456] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-28 20:36:36,969] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-28 20:36:36,970] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-28 20:36:36,970] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-28 20:36:36,970] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': '7aaw', 'expected': 'JPress后台'}
+[2024-03-28 20:36:36,970] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-28 20:36:39,787] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-28 21:33:13,860] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-28 21:33:13,960] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-28 21:33:13,963] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-28 21:33:13,963] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'v5kr', 'expected': 'JPress后台'}
+[2024-03-28 21:33:13,963] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-28 21:33:16,520] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-28 21:35:27,939] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-28 21:35:27,940] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-28 21:35:27,941] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-28 21:35:27,941] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': 'g4c9', 'expected': 'JPress后台'}
+[2024-03-28 21:35:27,941] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-28 21:35:30,786] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-29 09:41:14,143] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-29 09:41:14,144] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-29 09:41:14,144] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-29 09:41:14,144] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': '34dh', 'expected': 'JPress后台'}
+[2024-03-29 09:41:14,144] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-29 09:41:17,263] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-29 09:50:18,865] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-29 09:50:18,866] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-29 09:50:18,866] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-29 09:50:18,867] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': '6hca', 'expected': 'JPress后台'}
+[2024-03-29 09:50:18,867] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-29 09:50:21,204] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台
+[2024-03-29 10:28:15,222] test_admin_login.py->test_admin_login line:23 [INFO] ******************************后台登录测试******************************
+[2024-03-29 10:28:15,223] test_admin_login.py->test_admin_login line:24 [INFO] 当前是第1条用例：
+[2024-03-29 10:28:15,223] test_admin_login.py->test_admin_login line:25 [INFO] 测试名称：后台登录成功
+[2024-03-29 10:28:15,223] test_admin_login.py->test_admin_login line:26 [INFO] 测试数据：{'username': 'admin', 'pwd': 123456, 'verification_code': '94h8', 'expected': 'JPress后台'}
+[2024-03-29 10:28:15,223] test_admin_login.py->test_admin_login line:27 [INFO] 预期结果：JPress后台
+[2024-03-29 10:28:17,109] test_admin_login.py->test_admin_login line:36 [INFO] 实际结果：JPress后台

@@ -1,0 +1,3 @@
+log:
+  log_level: INFO
+  log_format: '[%(asctime)s] %(filename)s->%(funcName)s line:%(lineno)d [%(levelname)s] %(message)s'
